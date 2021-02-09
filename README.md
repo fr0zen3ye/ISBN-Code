@@ -20,3 +20,7 @@ _-___-_____-_
 3 Ziffern
 5 Ziffern
 1 Ziffer
+
+Wenn der Benutzer das Tippen beginnt wird die erste Zahl in das erste Feld geschrieben. So bald ein Feld voll ist, soll in das nächste Feld rechts davon gewechselt werden, um dort das nächste Zeichen einzutragen. Wenn Backspace gedrückt wird, soll die letzte Ziffer gelöscht werden. Achten Sie deshalb darauf, dass Backspace u.U erst mal dazu führen muss, dass ins vorherige Feld gesprungen wird.
+Bei jeder Ziffern Eingabe ist die ergebene Prüfziffer in das letzte Feld als sog. Placeholder eingetragen werden. Nutzen Sie CSS um die Prüfziffer im Placeholder-Zustand hellgrau darzustellen.
+Nur wenn eine gesamt eingegebene Prüfziffer falsch ist, soll ein div mit dem Text "ISBN corrupted" ausgegeben werden.
