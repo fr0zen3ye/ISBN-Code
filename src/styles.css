@@ -1,0 +1,9 @@
+#isbnCorrect{
+    color:  green;
+    display: none;
+}
+
+#isbnFalse{
+    color:  red;
+    display: none;
+}

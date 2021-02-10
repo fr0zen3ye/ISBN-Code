@@ -25,3 +25,14 @@ describe('checkISBN', () => {
         expect(checkISBN("3-928475-32")).toBe("");
     })
 })
+const {isISBNcorrect} = require('./isbn');
+describe('isISBNcorrect', () => {
+    it('should return false for 0', () => {
+        expect(isISBNcorrect("0")).toBe(false);
+    })
+
+    it ('should return true for 3-7910-2163-X', () => {
+        expect(isISBNcorrect("3-7910-2163-X")).toBe(true);
+    })
+
+})
