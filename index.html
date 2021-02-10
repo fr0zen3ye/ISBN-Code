@@ -10,14 +10,14 @@
   <body>
     <label>ISBN10 Eingeben:</label>
     <br>
-    <input type="text" id="userISBN">
+    <input type="text" id="userISBN" oninput="checkUserInput()">
     <div id="isbnCorrect">
       <p>ISBN OK</p>
     </div>
     <div id="isbnFalse">
       <p>ISBN corrupt</p>
     </div>
-    <button id="check" onclick="checkUserInput()">Pr&uumlfen</button>
+    
     <script src="./src/script.js"></script>
     <script src="./src/isbn.js"></script>
 

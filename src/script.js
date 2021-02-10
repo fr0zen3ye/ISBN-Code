@@ -2,7 +2,6 @@
 
 function checkUserInput(userISBN) {
     
-    
         var digits = document.getElementById("userISBN").value;
         if (isISBNcorrect(digits) === true){
         document.querySelector("#isbnCorrect").style.display = "block";
