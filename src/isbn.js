@@ -31,7 +31,7 @@ function isISBNcorrect (digits) {
         factor += 1;
     }
 
-    let checkdigit = sum % 11;
+    var checkdigit = sum % 11;
 
     if(checkdigit === 10) {
         checkdigit = "X";

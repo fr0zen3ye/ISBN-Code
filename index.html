@@ -10,7 +10,12 @@
   <body>
     <label>ISBN10 Eingeben:</label>
     <br>
-    <input type="text" id="userISBN" oninput="checkUserInput()">
+    <div class="isbnFields">
+    <input type="text" id="1" size="1" maxlength="1" oninput="checkUserInput()"onkeydown="testLength(event)"))> - 
+    <input type="text" id="2" size="3" maxlength="3" oninput="checkUserInput()"onkeydown="testLength(event)")> - 
+    <input type="text" id="3" size="5" maxlength="5" oninput="checkUserInput()"onkeydown="testLength(event)"))> -
+    <input type="text" class="placeholder"id="4" size="1" maxlength="1" placeholder="0" oninput="checkUserInput()"onkeydown="testLength(event)"))> 
+  </div>
     <div id="isbnCorrect">
       <p>ISBN OK</p>
     </div>
