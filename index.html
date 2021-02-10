@@ -8,16 +8,17 @@
   </head>
 
   <body>
-    <label>ISBN Eingeben:</label>
+    <label>ISBN10 Eingeben:</label>
     <br>
-    <input type="text" class="userISBN">
+    <input type="text" id="userISBN">
     <div id="isbnCorrect">
       <p>ISBN OK</p>
     </div>
     <div id="isbnFalse">
       <p>ISBN FALSE</p>
     </div>
-    <button id="check" onclick="isISBNcorrect(inputISBN)">Pr&uumlfen</button>
+    <button id="check" onclick="checkUserInput()">Pr&uumlfen</button>
+    <script src="./src/script.js"></script>
     <script src="./src/isbn.js"></script>
 
   </body>
